@@ -53,3 +53,33 @@ git add .
 git commit -m "ssh"
 git branch
 git push origin dev
+git config --list
+cd /root/.ssh/
+ll
+vi id_rsa.pub 
+cat id_rsa.pub 
+cd ..
+git status
+git branch
+git add .
+git status
+git commit -m "new"
+git push -u origin dev
+git clone git@github.com:vamshi5590/ojas.git
+git pull origin main
+git branch
+git pull origin dev
+git fetch
+git status
+git add .
+git commit -m "old"
+git push origin dev
+touch g1
+git add .
+git commit -m "g"
+git branch
+git push origin dev
+git pull origin dev
+git status
+git push origin dev
+git status
